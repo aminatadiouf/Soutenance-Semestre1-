@@ -25,6 +25,13 @@ nav ul{
     /* border: solid; */
     justify-content: center;
 }
+nav ul a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li:hover{
+    background-color: #F4B400;
+}
 .liste{
      display: flex;
     flex-wrap: nowrap;
@@ -94,6 +101,13 @@ nav ul{
     justify-content: center;
     background-color: #FF80D2;
    
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+button :hover{
+    background-color: #F4B400;
 }
 .texte button{
      font-size: larger;
@@ -332,8 +346,9 @@ nav ul{
     align-items: center ;
 
 }
+
 footer{
-    border: solid;
+    /* border: solid; */
     width: 100%;
     height: 25rem;
     display: flex;
@@ -342,9 +357,9 @@ footer{
     align-items: center;
 }
 .footer1{
-    border: solid;
+    /* border: solid; */
     width: 100%;
-    height: 30%;
+    height: 32%;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
@@ -367,7 +382,7 @@ footer{
 
 }
 .votre{
-    border: solid;
+    /* border: solid; */
     width: 70%;
     height: 90%;
     border-right: solid;
@@ -380,7 +395,7 @@ footer{
    padding: 2px;  
 }
 .send{
-    border: solid;
+    /* border: solid; */
     width: 30%;
     height: 90%;
     display: flex;
@@ -392,26 +407,28 @@ footer{
    padding: 2px; 
 }
 .footer2{
-    border: solid;
+    /* border: solid; */
     width: 100%;
     height: 68%;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
-    
+    background-color:#000000;  
 }
 .foot2{
-    border: solid;
+    /* border: solid; */
     width: 90%;
     height: 100%;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
+    justify-content: space-between;
+    color: white;
     
 }
 .up{
-    border: solid;
+    /* border: solid; */
     width: 25%;
     height: 99%;
     display: flex;
@@ -421,9 +438,9 @@ footer{
     
 }
 .logofooter{
-    border: solid;
+    /* border: solid; */
     width: 60%;
-    height: 35%;
+    height: 40%;
     display: flex;
 }
 .logofooter img{
@@ -431,7 +448,7 @@ footer{
     height: 100%;
 }
 .reseaux{
-     border: solid;
+     /* border: solid; */
     width: 60%;
     height: 20%;
     display: flex;
@@ -445,13 +462,29 @@ footer{
     width: 100%;
     font-size: x-large;
     font-weight: 600;
-    text-align: center;
+    /* text-align: center; */
 }
 .help2{
-    border: solid;
+    /* border: solid; */
     
-    height: 40%;
+    height: 60%;
 }
 .up ul{
-    border: solid;
+    /* border: solid; */
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    /* text-align: center; */
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+.up ul li{
+        /* border: solid; */
+        width: max-content;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+
 }

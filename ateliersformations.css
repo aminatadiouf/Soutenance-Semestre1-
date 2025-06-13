@@ -1,0 +1,367 @@
+.container{
+    height: max-content;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+nav{
+    /* border: solid; */
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 120px;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    flex-wrap: nowrap;
+    width:80% ;
+    list-style-type: none;
+    gap: 30px;
+    /* border: solid; */
+    justify-content: center;
+}
+nav ul a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li:hover{
+    background-color: #F4B400;
+}
+.liste{
+     display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 70%;
+    font-size: large;
+    /* border: solid; */
+    height: 40px;
+    border-radius: 25px;
+    background-color: #3030D0;
+    color: white;
+}
+.logo{
+    width: 15%;
+    display: flex;
+    /* border: solid; */
+    height: 99%;
+}
+.logo img{
+    width: 80%;
+    height: 99%;
+}
+.login{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+
+.rose {
+    width:70% ;
+}
+.sloganrose{
+    width:100% ;
+}
+
+.rose i{
+    color: #FF80D2;
+}
+.rose1{
+        width: 100%;
+      height: 30rem;
+       background-color: #F2EDED;
+       height: 30rem;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+}
+.section1{
+    /* border: solid; */
+    height: 25rem;
+    width:90% ;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.texte{
+    /* border: solid; */
+    width: 45%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.slogan{
+    /* border: solid; */
+    font-size:xx-large;
+    font-weight: 500;
+    height: max-content;
+    width: 100%;
+}
+.make{
+    /* border: solid; */
+    width: 99%;
+}
+.image{
+     /* border: solid; */
+    width: 53%;
+    height: 99%;
+    display: flex;
+}
+.imagesection img{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 0px;
+}
+
+.section2{
+    /* border: solid; */
+    height: 45rem;
+    width: 100%;
+    background-color: #F2EDED;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.child1{
+    /* border: solid; */
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+}
+.defis{
+    /* border: solid; */
+    width: 100%;
+    height: max-content;
+    font-size:xx-large;
+    font-weight: 900;
+    font-style: italic;
+    text-decoration: underline ;
+    display: flex;
+    justify-content: flex-end;
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+}
+button :hover{
+    background-color: #F4B400;
+}
+.child2{
+    /* border: solid; */
+    height: 82%;
+    width: 93%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+   
+    
+}
+
+.minichild{
+    border: solid #F4B400 ;
+    height: 99%;
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+     gap: 10px;
+     justify-content: center;
+}
+.imageMinichild{
+    width: 99%;
+    /* border: solid; */
+    height: 40%;
+    display: flex;
+}
+.imageMinichild img{
+    width: 100%;
+    height:100%;
+}
+.bouton2{
+    /* border: solid; */
+    width: 50%;
+    height: 11%;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: #FF80D2;
+}
+.bouton2 button{
+     font-size: larger;
+     font-weight: 600;
+     font-style: italic;
+     color: white;
+     background-color: #FF80D2;
+     border: none;
+    
+     /* width: 90%; */
+}
+.concour{
+    text-align: center;
+}
+.concour span{
+    font-weight: bold;
+    color: #3030D0;
+    font-size: x-large;
+}
+
+footer{
+    /* border: solid; */
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.footer1{
+    /* border: solid; */
+    width: 100%;
+    height: 32%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: #CFB7B7;
+}
+.letters{
+    /* border: solid; */
+    width: 30%;
+    height: 34%;
+    display: flex;
+    flex-wrap: nowrap;
+    /* border-radius: 50px; */
+    justify-content: space-between;
+    align-items: center;
+
+    /* padding: 6px; */
+
+}
+.votre{
+    /* border: solid; */
+    width: 70%;
+    height: 90%;
+    border-right: solid;
+    display: flex;
+      justify-content: flex-start;
+    align-items: center;
+    border-top-left-radius: 50px;
+   border-bottom-left-radius: 50px; 
+   background-color: white; 
+   padding: 2px;  
+}
+.send{
+    /* border: solid; */
+    width: 30%;
+    height: 90%;
+    display: flex;
+      justify-content: flex-end;
+    align-items: center;
+    border-top-right-radius: 50px;
+   border-bottom-right-radius: 50px; 
+   background-color:  #FF80D2;
+   padding: 2px; 
+}
+
+.footer2{
+    /* border: solid; */
+    width: 100%;
+    height: 68%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    background-color:#000000;  
+}
+.foot2{
+    /* border: solid; */
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    
+}
+.up{
+    /* border: solid; */
+    width: 25%;
+    height: 99%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logofooter{
+    /* border: solid; */
+    width: 60%;
+    height: 40%;
+    display: flex;
+}
+.logofooter img{
+    width: 100%;
+    height: 100%;
+}
+.reseaux{
+     /* border: solid; */
+    width: 60%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.reseaux i{
+    font-size:40px ;
+}
+.center{
+    width: 100%;
+    font-size: x-large;
+    font-weight: 600;
+    /* text-align: center; */
+}
+.help2{
+    /* border: solid; */
+    
+    height: 60%;
+}
+.up ul{
+    /* border: solid; */
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    /* text-align: center; */
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+.up ul li{
+        /* border: solid; */
+        width: max-content;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+
+}
