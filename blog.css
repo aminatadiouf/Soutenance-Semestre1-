@@ -62,7 +62,13 @@ nav ul li:hover{
     gap: 10px;
 }
 
-
+.login  a{
+    text-decoration: none;
+    color: white;
+}
+.login a:hover{
+    background-color: #F4B400;
+}
 
 .rose {
     width:70% ;

@@ -61,6 +61,13 @@ nav ul li:hover{
     flex-wrap: nowrap;
     gap: 10px;
 }
+.login  a{
+    text-decoration: none;
+    color: white;
+}
+.login a:hover{
+    background-color: #F4B400;
+}
 .parent{
     /* border: solid; */
     width: 100%;
