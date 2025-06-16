@@ -76,7 +76,9 @@ nav ul li:hover{
 .sloganrose{
     width:100% ;
 }
-
+.decoration{
+    text-decoration: underline;
+}
 .rose i{
     color: #FF80D2;
 }

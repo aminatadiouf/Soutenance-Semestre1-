@@ -116,6 +116,9 @@ nav ul li:hover{
     height: max-content;
     width: 100%;
 }
+.decoration{
+    text-decoration: underline;
+}
 .make{
     /* border: solid; */
     width: 99%;

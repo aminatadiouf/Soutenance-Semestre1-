@@ -108,6 +108,9 @@ nav ul li:hover{
 .bleu i{
     color: #3030D0;
 }
+.decoration{
+    text-decoration: underline;
+}
 .make{
     /* border: solid; */
     width: 99%;
