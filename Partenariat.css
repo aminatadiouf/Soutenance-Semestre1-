@@ -400,6 +400,7 @@ footer{
 }
 .letters{
     /* border: solid; */
+    
     width: 30%;
     height: 34%;
     display: flex;
@@ -413,6 +414,7 @@ footer{
 }
 .votre{
     /* border: solid; */
+    
     width: 70%;
     height: 90%;
     border-right: solid;
@@ -426,6 +428,7 @@ footer{
 }
 .send{
     /* border: solid; */
+    
     width: 30%;
     height: 90%;
     display: flex;
