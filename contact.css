@@ -69,6 +69,16 @@ nav ul li:hover{
     background-color: #F4B400;
 }
 
+
+.rose1{
+       width: 100%;
+       height: 30rem;
+       background-color: #F2EDED;
+       height: 30rem;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+}
 .section1{
     /* border: solid; */
     height: 25rem;
@@ -114,13 +124,13 @@ nav ul li:hover{
 }
 .make textarea{
      width: 90%;
-    height: 35%;
+    height: 25%;
     padding: 10px;
     border-radius: 30px;
     background-color:#D9D9D9;
 }
-/* .bouton{
-    /* border: solid; 
+.bouton{
+     /* border: solid;  */
     border-radius: 50px;
     width: 40%;
     height: 15%;
@@ -144,8 +154,8 @@ button :hover{
      background-color: #FF80D2;
      border: none;
     
-     /* width: 90%; 
-} */
+      /* width: 90%;  */
+}
 .image{
      /* border: solid; */
     width: 53%;
@@ -241,7 +251,7 @@ footer{
     border-top-left-radius: 50px;
    border-bottom-left-radius: 50px; 
    background-color: white; 
-   padding: 2px;  
+   padding-left: 12px;  
 }
 .send{
     /* border: solid; */
@@ -253,7 +263,7 @@ footer{
     border-top-right-radius: 50px;
    border-bottom-right-radius: 50px; 
    background-color:  #FF80D2;
-   padding: 2px; 
+    padding-right: 12px;  
 }
 .footer2{
     /* border: solid; */
